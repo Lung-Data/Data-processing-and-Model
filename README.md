@@ -9,7 +9,7 @@ The Lung tumor CT segmentation dataset dataset is hosted on the **ScienceDB**. T
 
 2. **Download the dataset**
 3. Once logged in, go to:
-  [Lung tumor CT segmentation dataset](https://www.scidb.cn/detail?dataSetId=aa13339e4073424083af0b2c0f2cabe8)
+  [Lung tumor CT segmentation dataset](https://www.scidb.cn/en/s/NVB3y2)
 
    The download includes:
 
