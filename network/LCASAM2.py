@@ -569,7 +569,7 @@ class CIE_Head(nn.Module):
         ]
 
 
-class LCASAM2(nn.Module):
+class NetworkCC(nn.Module):
     def __init__(self, in_chns, class_num, sam2_checkpoint_path=None, freeze_sam2=True):
         super().__init__()
 
@@ -589,7 +589,7 @@ class LCASAM2(nn.Module):
 
 
 if __name__ == "__main__":
-    model = LCASAM2(in_chns=1, class_num=2, sam2_checkpoint_path=None, freeze_sam2=True)
+    model = NetworkCC(in_chns=1, class_num=2, sam2_checkpoint_path=None, freeze_sam2=True)
     x = torch.randn(2, 1, 352, 352)
     outputs = model(x)
     print(f"Model output shapes: {[out.shape for out in outputs]}")
