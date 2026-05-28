@@ -16,7 +16,9 @@ The Lung tumor CT segmentation dataset is hosted on the **ScienceDB**. To downlo
 ## Model
 ## 🧠Network Architecture
    <img width="556" height="322" alt="image" src="https://github.com/user-attachments/assets/a181d475-b66a-4baf-a0ff-5e84719daab4" />
-
+   
+## 📊 Visualize the results
+<img width="555" height="425" alt="image" src="https://github.com/user-attachments/assets/8dcf54f4-f887-437a-858c-86f1b2b086f4" />
 
 ## 📦 Document Description
 🔹 **process.py :** This script converts the DICOM series into unified 3D NIfTI volumes. It automatically sorts the DICOM slices by InstanceNumber and rigorously corrects the Z-axis direction matrix, ensuring strict spatial consistency between the CT imagery and the matched segmentation masks.
