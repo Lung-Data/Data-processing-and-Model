@@ -2,7 +2,7 @@
 This repository contains the dataset processing code for the Lung tumor CT segmentation dataset, as well as the model code for segmenting the target region.
 ## Dataset Acquisition
 
-The Lung tumor CT segmentation dataset is hosted on the **ScienceDB**. To download the data, go to: [Lung tumor CT segmentation dataset](https://www.scidb.cn/en/s/NVB3y2)
+The Lung tumor CT segmentation dataset is hosted on the **ScienceDB**. To download the data, go to: [Lung](https://www.scidb.cn/en/s/NVB3y2)
 <img width="372" height="203" alt="{47BC6FC8-68B6-4300-9F63-EA500AF4062E}" src="https://github.com/user-attachments/assets/9e5a0b06-61c2-4d6a-898e-bf96bed0cb00" />
 
    The download includes:
