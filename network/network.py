@@ -590,6 +590,6 @@ class NetworkCC(nn.Module):
 
 if __name__ == "__main__":
     model = NetworkCC(in_chns=1, class_num=2, sam2_checkpoint_path=None, freeze_sam2=True)
-    x = torch.randn(2, 1, 352, 352)
+    x = torch.randn(2, 1, 224, 224)
     outputs = model(x)
     print(f"Model output shapes: {[out.shape for out in outputs]}")
