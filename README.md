@@ -14,7 +14,14 @@ The Lung tumor CT segmentation dataset is hosted on the **ScienceDB**. To downlo
    - *Annotation Files* — CT in NIfTI format (from DICOM conversion)
 
 It is recommended that users select the folder containing the CT images imported into the ITK-SNAP 3.8.0 (http://itksnap.org), select DICOM Image Series for File Format, visualize the main image first, and then load the associated Nifti segment as a segment into ITK-SNAP. Label 1 (red) represents the tumor.
-  
+
+## CT images
+<img width="552" height="212" alt="image" src="https://github.com/user-attachments/assets/bd6311b7-a000-4565-9768-a65b471c54af" />
+
+The figure was generated using Figdraw (www.figdraw.com)
+
+
+
 ## Model
 ## 🧠Network Architecture
    <img width="556" height="322" alt="image" src="https://github.com/user-attachments/assets/a181d475-b66a-4baf-a0ff-5e84719daab4" />
